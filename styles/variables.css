@@ -1,0 +1,18 @@
+:root{
+    /*цвета*/
+      --background-color: #FADCD9;
+      --background-color-main: #F9F1F0;
+      --background-color-contact: #F8AFA6;
+      --header-title-font-size:  1.5625rem;
+      /*границы*/
+      --border-bottom: 2px solid #F8AFA6;
+       --border-button: 6px solid  #e89f95 ;
+      /*отступы*/
+       --margin-page: clamp(0.5625rem, 0.4466rem + 0.5455vw, 0.9375rem);
+       /*тень*/
+        --text-shadow-label:
+  -1px -1px 0 var(--color-outline-label,#ffffff),
+  1px -1px 0 var(--color-outline-label,#ffffff),
+  -1px 1px 0 var(--color-outline-label,#ffffff),
+  1px 1px 0 var(--color-outline-label,#ffffff);
+}

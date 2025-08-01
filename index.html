@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation-project-f</title>
+    <link rel="icon" href="./images/favicon.ico.png" sizes="any">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/globals.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="page">
+    <header class="border header">
+        <a class="header__title" aria-label="Логотип">
+            <span><span class="header__title_accent">JULIA</span> HUANG</span>
+        </a>
+        <menu class="menu">
+            <ul class="menu_list">
+                <li class="menu_list_item">PROJECTS</li>
+                <li class="menu_list_item">ABOUT</li>
+                <li class="menu_list_item">CONTACT</li>
+            </ul>
+        </menu>
+    </header>
+    <section class="border card_description">
+        <svg width="120" height="120" viewBox="0 0 200 200">
+            <use href="./svg/vector.svg#flower"></use>
+        </svg>
+        <h1 class="card_description_text">Artist Redefining Architecture with AI-Driven Design</h1>
+
+    </section>
+    <section class="border card_info">
+        <svg width="38" height="38" viewBox="0 0 50 50">
+            <use href="./svg/decor.svg#decor"></use>
+        </svg>
+        <p class="card_info_text">Julia Huang is an innovative AI artist, renowned for blending cutting-edge technology
+            with creative expression. Based in LA, she crafts unique digital art experiences accessible globally.
+        </p>
+    </section>
+    <section class="border card_img">
+        <img src="./images/IMAGE.jpg" class="border card_image"
+           alt="На изображении представлен портрет молодой женщины с розовыми волосами и очками. Она одета в бежевый свитер и имеет прямой взгляд на камеру">
+   <h2 class="card_img_title">Julia Huang</h2>
+        </section>
+    <section class="border card_contact">
+        <span class="card_contact_text">Have some questions?</span>
+        <h1 class="card_contact_title">Contact me</h1>
+    </section>
+    <section class="border container_art">
+        <div class="container_art_wrapper">
+            <p class="container_art_text">Musea</p>
+            <img src="./images/room.jpg" class="border container_art_img"
+                alt="На изображении представлено уютное кресло-качалка нежного розового цвета, выполненное в мягком и округлом дизайне">
+        </div>
+        <form class="form_block">
+            <label for="name" class="visually-hidden">name</label>
+              <input class="form_input" type="text" id="name" name="name" required placeholder="name">
+            <label for="email" class="visually-hidden">Email</label>
+              <input class="form_input" type="email" id="email" name="email" required placeholder="email">
+            <label for="phone" class="visually-hidden">phone</label>
+              <input class="form_input" type="tel" id="phone" name="phone" required placeholder="email">
+              <button type="submit" class="button">contact me</button>
+        </form>
+        </div>
+    </section>
+    <footer class="border footer">
+        <menu class="menu">
+            <ul class="footer_menu_list menu_list">
+                <li class="menu_list_item">Instagram</li>
+                <li class="menu_list_item">Twitter</li>
+                <li class="menu_list_item">Linkedin</li>
+            </ul>
+        </menu>
+    </footer>
+</body>
+</html>
